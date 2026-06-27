@@ -1,5 +1,5 @@
 # ZYPPI CONSTITUTIONAL STATE OF THE UNION (v1.0)
-## The Authoritative Orientation & Onboarding Guide for the AI Council
+## The Authoritative Orientation & Onboarding Dossier for the AI Council
 **Status:** Canonical Baseline
 **Date:** June 2026
 **Scope:** Repository Baseline v1.0 (Execution Era)
@@ -8,232 +8,207 @@
 
 ## 1. Executive Summary
 
-### 1.1 The Reality-First Mission
-Zyppi is the **Intent Distribution Infrastructure** for the physical internet (Ref: `NORTH-STAR.md`, §"North Star"). It exists to bridge the gap between physical interactions (Touch) and digital execution by preserving the **Asset Reality** across time, jurisdiction, and interface. Unlike legacy event-centric systems, Zyppi treats relationships as permanent and interactions as transient.
+Zyppi is the **Intent Distribution Infrastructure** for the physical internet (Ref: `NORTH-STAR.md`). It bridges the gap between physical interactions (**Touch**) and digital outcomes by preserving the **Asset Reality** across time and jurisdiction. The system replaces transient event-logs with a **Reality-First Paradigm**, where the Reality Graph is the canonical ground truth.
 
-### 1.2 The State of the Union: Execution Era
-As of June 2026, Zyppi has successfully transitioned from the **Ontology Era** (Phase 0: defining what things are) to the **Execution Era** (Phase 3: enforcing what things do). The "Constitution" is no longer a collection of documents; it is the **Input Specification for a Deterministic Compiler chain** (Ref: `RI-001`, §1, ¶1).
+### 1.1 Constitution at a Glance
+A repository-wide snapshot of the current architectural scale.
 
-The architecture is now **Locked**, **Ratified**, and **Mathematically Deterministic**. Every compliant implementation (Go, Rust, Python) must produce byte-identical registry outputs from the same constitutional inputs.
-
----
-
-## 2. Constitutional Philosophy
-
-### 2.1 Reality-First Paradigm
-Legacy systems record "Events" (e.g., clicks). Zyppi records "Reality" (e.g., the relationship between an Actor and a Referent). Events are transient; Relationships are permanent. (Ref: `ZRM v1.1`, §6.17, ¶1)
-
-### 2.2 Semantic Sovereignty
-No code can be written for a concept that has not been constitutionally ratified. Semantic ownership precedes implementation. (Ref: `WS-01`, §1, ¶2; `WS-05A`, §1, ¶1)
-
-### 2.3 Mathematical Determinism
-The integrity of the "Digital Constitution" is protected by **RFC 8785 JSON Canonicalization** and **SHA-256 Integrity Hashes**. The registry is not "built" by humans; it is "materialized" from a proven population plan. (Ref: `RI-000`, §5.1, ¶1; `RI-004`, §CMP-001, ¶1)
-
----
-
-## 3. Guiding Principles (The Immutable Laws)
-
-Future Council members **MUST NOT** innovate in these areas without a Phase 0 reset.
-
-1.  **Traffic Is Sacred:** Redirect performance is the primary technical constraint; intelligence layer failure must never block the traffic layer. (Ref: `TECH-ARCHITECTURE.md`, §2, Principle 1 & 3)
-2.  **Reality Over Events:** The purpose of the Reality Graph is to preserve meaning, not just logs. (Ref: `ZRM v1.1`, §6.17, ¶2)
-3.  **Single Ownership Rule:** Every entity SHALL possess exactly one owning cluster. (Ref: `WS-03A.0`, §5, CR-001, ¶1)
-4.  **Single-Parent Inheritance:** Multi-parent inheritance is constitutionally prohibited to ensure a deterministic taxonomy. (Ref: `WS-03A.0`, §8, IF-001 & IF-002)
-5.  **Bitemporality:** All facts MUST record both the **Occurrence Time** (when it happened) and the **Assertion Time** (when Zyppi recorded it). (Ref: `ZRM v1.1`, §3, ¶1; `CL-11`)
-6.  **Identity != Referent:** The digital representation (zID) is distinct from the physical referent. (Ref: `WS-01`, §2, ¶1; `ZRM v1.1`, §7.7, ¶1)
-7.  **Deterministic Compilation:** Identical inputs SHALL produce byte-identical artifacts across all certified compilers. (Ref: `RI-000`, §85, ¶1)
-
----
-
-## 4. Complete Constitutional Map
-
-### 4.1 Dependency Graph (The Ratification Chain)
-The following graph represents the mandatory order of reading, ratification, and implementation.
-
-```mermaid
-graph TD
-    subgraph "Phase 0: Foundations"
-        NS[North Star] --> FP[Founding Principles]
-        FP --> ZRM[ZRM V1.1]
-        ZRM --> WS01[WS-01: Ontology]
-    end
-
-    subgraph "Phase 1: Structural Lock"
-        WS01 --> WS02[WS-02: Registry Framework]
-        WS02 --> WS02A[WS-02A: Blueprint]
-        WS02A --> WS03[WS-03: Taxonomy]
-        WS03 --> WS03A[WS-03A.0: Cluster Map]
-        WS03A <--> WS04A[WS-04A: Relationship Framework]
-        WS03A --> WS03C[WS-03C: Relationships Matrix]
-        WS03A --> WS03D[WS-03D: Authority Anchor Model]
-    end
-
-    subgraph "Phase 2: Hardening"
-        WS03D --> CA004[CA-004: Revocation Model]
-        CA004 --> CA005[CA-005: Trust Registry]
-        CA005 --> WS03F[WS-03F: Population Hardening]
-    end
-
-    subgraph "Phase 3: Execution"
-        WS03F --> RI000[RI-000: Execution Contract]
-        RI000 --> RI001[RI-001: Compiler]
-        RI001 --> RI003[RI-003: Proofs]
-        RI003 --> RI004[RI-004: Materialization]
-        RI004 --> RI005[RI-005: Publication]
-    end
-
-    subgraph "The Runtime Stack"
-        WS03A --> ARMP[ARM-P: Product Profile]
-        ARMP --> PRJ[PRJ: Projections]
-        PRJ --> EXP[EXP: Experiences]
-        EXP --> ZT[ZT: Touch]
-    end
-```
-
----
-
-## 5. Evolution Timeline (The "Why")
-
-| Era | Change | Rationale |
+| Metric | Value | Authority |
 | :--- | :--- | :--- |
-| **Ontology Era** | **WS-01 / WS-02** | Defined Actors, Identities, and Referents as the core primitives of reality. |
-| **17-Cluster Expansion** | **CA-001** | Realized that **Interpretation** (CL-16) and **Infrastructure** (CL-17) were too distinct to be merged into other clusters. (Ref: `CA-001`, §1, ¶1) |
-| **Campaign Refactor** | **CA-002** | Audit **CIA-02** found "Campaign" was a duplicated primitive. Refactored into **Campaign Identity** (CL-04) and **Campaign Context** (CL-16). (Ref: `CA-002`, §1, ¶2) |
-| **Temporal Ruling** | **AMENDMENT A-001** | Rejected the motion to treat time as metadata. Ruled that **Temporal Governance** (e.g., Fiscal Periods) is a first-class ontological concern. (Ref: `AMENDMENT A-001`, §3, ¶1) |
-| **Authority Pivot** | **WS-03D / CA-004** | Moved from "Composable Context" to the **Singular Authority Anchor** model to ensure a clear, revocable chain of command. (Ref: `WS-03D`, §Ratification, ¶1) |
-| **T1 Cleanup** | **WS-03F / SR-001** | Deprecated imprecise "T1" concepts (**Signal, Journey, Fact**) in favor of deterministic **Events** and **Reality Claims**. (Ref: `WS-03F-002`, ¶1) |
+| **Ratified/Locked Constitutions** | 59 | `constitution/ratified/` |
+| **Active Amendments** | 6 | `CA-001` to `CA-005`, `A-001` |
+| **Active Supersessions** | 15 | `SR-001`, `SR-001(0.5)` |
+| **Execution Specifications** | 6 | `RI-000` to `RI-005` |
+| **Constitutional Gaps** | 4 | Policy, Federation, SDK, Security |
+| **Reserved Domains** | 5 | Federation, Identity, Security, etc.|
+| **Overall Maturity** | 85% | Council Audit June 2026 |
 
 ---
 
-## 6. Current State (Audit of Ratified Artifacts)
+## 2. Constitutional Status Dashboard
 
-### 6.1 Core Documents (RATIFIED/LOCKED)
-| Artifact | Purpose | Consumers | Ref |
+Reviewers must distinguish between **Settled Law** (Locked) and **Open Domains** (Gap/Reserved). Discussion is only permitted in non-locked areas.
+
+| Domain | Status | Authority | Settlement Date |
 | :--- | :--- | :--- | :--- |
-| **ZRM v1.1** | Foundation of the Reality Graph | All Layers | Part 1-7 |
-| **WS-03A.0** | Canonical 17-Cluster Map | RI-001, RI-004 | §2 |
-| **RI-000** | Execution Contract & State Machine | All Compilers | §5.2 |
-| **CA-005** | Trust Registry Definition | PRJ, EXP | §3 |
-| **ZT-001** | Touch Constitution (Entry point) | EXP, SDK | §2 |
-| **PRJ-003** | DPP Projection Specification | SDK, Regulators | §1 |
-| **WS-05E** | Population Certification Standard | Council, RI-004 | §1 |
+| **Ontology & Primitives** | **LOCKED** | `WS-01`, `WS-03F` | June 2026 |
+| **Taxonomy (17 Clusters)**| **LOCKED** | `WS-03A.0`, `CA-001`, `A-001` | June 2026 |
+| **Relationship Model** | **LOCKED** | `WS-04A.1`, `WS-04B`, `ARM-001` | June 2026 |
+| **Authority Model** | **LOCKED** | `WS-03D`, `CA-004`, `WS-03F` | June 2026 |
+| **Trust Registry** | **LOCKED** | `CA-005` | June 2026 |
+| **Compiler / ACV** | **LOCKED** | `RI-000`, `RI-001` | June 2026 |
+| **Population Engine** | **LOCKED** | `RI-004`, `WS-05A-E` | June 2026 |
+| **Reasoning Framework** | **LOCKED** | `RSN-001`, `RSN-002` | June 2026 |
+| **Registry Publication** | **DRAFT** | `RI-005` | - |
+| **Runtime SDK / API** | **IN PROGRESS**| `ROADMAP.md` Phase D | - |
+| **Policy Engine** | **GAP** | `PRJ-001` §11 | - |
+| **Federation** | **RESERVED** | `RSN-003` §Attestation | - |
 
-### 6.2 Drafts & Work-in-Progress
-| Artifact | Purpose | Current State | Ref |
+---
+
+## 3. Constitutional Completeness Map
+
+Estimates of architectural settling within each pillar based on ratification status.
+
+- **Reality** (Assets, Events, Identities, Clusters)
+  ██████████████ 100% (Foundations frozen under `CFR-001`)
+- **Execution** (Intents, Transactions, Outcomes, Contracts)
+  █████████████░ 95% (Contracts defined; SDKs pending)
+- **Compilation** (ACV, Determinism, Proofs, Materializer)
+  ██████████████ 100% (RI-000 through RI-004 ratified)
+- **Interpretation** (Reasoning, Intelligence, Attestation)
+  ███████████░░░ 80% (Framework locked; Blueprints empty)
+- **Projection** (GS1, DPP, Views, Policy)
+  ██████████░░░░ 75% (Framework locked; Policy engine missing)
+- **Runtime** (SDK, Federation, Marketplace, Security)
+  ██░░░░░░░░░░░░ 15% (Phase D roadmap only)
+
+---
+
+## 4. Constitutional Execution Pipeline
+
+The deterministic chain that transforms the "Digital Constitution" into an active governing system.
+
+1.  **Frozen Constitution:** The ratified markdown corpus.
+2.  **RI-001 Compiler:** Consumes the corpus to build the **ACV**.
+3.  **Active Constitutional View (ACV):** The sole executable representation of truth.
+4.  **RI-003 Independent Proof:** Reconstructs truth to verify compiler correctness.
+5.  **Population Plan:** A proven batch sequence for registry construction.
+6.  **RI-004 Materialization:** A "Dumb Executor" writes values to the registry.
+7.  **Certified Registry:** Merkleized, certified, and immutable state.
+8.  **RI-005 Publication:** Distribution of verified Registry Bundles.
+9.  **Runtime (Future):** SDK consumption of the published bundles.
+
+---
+
+## 5. Current Constitutional Boundary
+
+The Constitution currently ends at **RI-005 Registry Publication**.
+
+Everything after publication—including **Runtime Execution Engines**, **SDK implementations**, **API orchestration**, and **Federation protocols**—remains outside the current constitutional scope. These domains represent the "Next Frontier" for the Council.
+
+---
+
+## 6. Guiding Principles (The Immutable Laws)
+
+1.  **Traffic Is Sacred:** Redirect performance is the primary path; intelligence layer failure must never block the traffic layer. (Ref: `TECH-ARCHITECTURE.md`, §2)
+2.  **Reality Over Events:** Meaning compounds through relationships, not logs. (Ref: `ZRM v1.1`, §6.17)
+3.  **Identity != Referent:** Digital representation (zID) is distinct from the physical object. (Ref: `WS-01`, §2)
+4.  **Single Ownership Rule:** No concept may be owned by more than one cluster. (Ref: `WS-03A.0`, §5)
+5.  **Bitemporality:** All facts record both the Occurrence and the Assertion time. (Ref: `ZRM v1.1`, §3)
+6.  **Deterministic Compilation:** Identical inputs SHALL produce byte-identical artifacts. (Ref: `RI-000`, §85)
+7.  **Relationships are First-Class:** Relationships possess independent identity and lifecycle. (Ref: `ARM-001`)
+
+---
+
+## 7. Decision Register (Settled Debates)
+
+| Decision Point | Result | Rationale | Authority |
 | :--- | :--- | :--- | :--- |
-| **RI-005** | Publication & Distribution | **DRAFT** (Approved for Locking) | §1 |
-| **RSN-002** | Methodology Registry | **DRAFT** (Proposed Ratification) | §1 |
-| **PRJ-001** | Projection Foundation | **DRAFT** (Pending Policy Engine) | §1 |
+| **15 vs 17 Clusters** | **17 Adopted** | Interpretation (CL-16) and Infrastructure (CL-17) isolation. | `CA-001` |
+| **Signal vs Event** | **Event Adopted** | Signal was too ephemeral; Event supports bitemporality. | `SR-007` |
+| **Campaign Primitive** | **REJECTED** | Refactored to Identity (CL-04) to prevent duplication. | `CA-002` |
+| **Time Status** | **CL-13 Cluster** | Governance is an ontological concern, not metadata. | `A-001` |
+| **Context Model** | **Singular Anchor** | Ensures clear, revocable authority lineage. | `WS-03D` |
+| **Registry Role** | **Materializer** | Prevents "smart" implementation-level decisions. | `RI-004` |
+| **Serialization** | **RFC 8785 JCS** | Mandatory for byte-identical cross-compiler hashing. | `RI-001` §28 |
 
 ---
 
-## 7. Current Debt (What Remains)
+## 8. Explicit "Do NOT Revisit" List
 
-### 7.1 Technical & Governance Debt
-- **Missing: POL-001 (Policy Constitution).** This is the single biggest gap. Projections and Experiences depend on a "Policy Layer" that lacks a formal language specification (Rego/CEL). (Ref: `PRJ-001`, §11, ¶1)
-- **Missing: KRM (Knowledge Routing Matrix).** Referenced in `RSN-001` (§10, ¶1) but has no schema or registry in `CL-17`.
-- **Knowledge Debt:** Rationale for selecting **BLAKE2b** for deterministic seeding is documented as a risk mitigation (R2 in `ROADMAP.md`) but lacks a formal ADR.
-- **Knowledge Debt:** The shift from **"Signal"** to **"Event"** (Ref: `SR-007`) is recorded but the specific failure modes of the "Signal" concept are missing from the repository history.
-
-### 7.2 Structural Gaps (The v2.0 Roadmap)
-- **Federation:** No model for cross-tenant sharing. (Ref: `RSN-003`, §Attestation Registry - "Reserved").
-- **Marketplace:** No framework for 3rd-party Blueprint trading. (Ref: `RSN-003`, §Attestation Registry - "Reserved").
-
----
-
-## 8. Ownership Map (Concept Sovereignty)
-
-Every major concept in Zyppi is owned by exactly one cluster. (Ref: `WS-03A.0`, §5, CR-001)
-
-| Concept | Unique Owner | Referenced By | Authority |
-| :--- | :--- | :--- | :--- |
-| **Reality State** | CL-17 Graph Core | RI-004, RI-005 | `WS-03A.0` §10 |
-| **Digital ID (zID)** | CL-04 Identity | All Layers | `WS-03A.2` §1 |
-| **Fact Assertion** | CL-11 Event | RSN, PRJ | `WS-03A.8` §1 |
-| **Inference/Risk** | CL-16 Intelligence | EXP, Decision Sys | `WS-03A.9` §1 |
-| **Auth Context** | CL-04 Identity | CA-004, CA-005 | `SR-006`, `SR-012` |
-| **Temporal Logic** | CL-13 Temporal | All Layers | `AMENDMENT A-001` |
-| **Compliance Std** | CL-14 Compliance | PRJ-003 | `WS-03A.0` §4 |
-| **Attestation** | RSN-003 (Primitive)| All Layers | `RSN-003` §Attestation |
+Reviewers MUST NOT propose innovation or simplification in these frozen areas:
+- **17 Cluster Taxonomy**
+- **Single Ownership Rule**
+- **Single-Parent Taxonomy**
+- **Deterministic Compilation Chain**
+- **Population Plan Theorem**
+- **Registry Materialization Model**
+- **RFC 8785 Canonicalization**
+- **Bitemporal Reality Invariants**
+- **Reality-First Philosophy**
 
 ---
 
-## 9. Dependency Map (Detailed Rules)
+## 9. Constitutional Maturity & Confidence
 
-1.  **The Master Chain:** `ZRM` (Reality) -> `WS-03A.0` (Structure) -> `RI-000` (Contract) -> `RI-001` (Compiler). Failure at any node in this chain **INVALIDATES** the entire Registry. (Ref: `WS-00A`, §15, ¶1)
-2.  **Projection Independence:** A Projection (PRJ) is a consumer of Reality. Deleting or modifying a Projection **SHALL NOT** alter the underlying Asset Reality. (Ref: `PRJ-001`, §16, ¶1; `PRJ-003`, §12, ¶1)
-3.  **Experience Isolation:** Experiences (EXP) are ephemeral outcomes. They **SHALL NOT** become system-of-record artifacts. (Ref: `EXP-001`, §3, EXP-CP-005, ¶1)
-4.  **Touch Integrity:** Every Touch depends on a Context Envelope and an Address. (Ref: `ZT-001`, §7, ¶1)
+| Domain | Frozen | Proven | Implemented | Confidence |
+| :--- | :--- | :--- | :--- | :--- |
+| **Ontology** | ✓ | ✓ | ✓ | **Very High** |
+| **Taxonomy** | ✓ | ✓ | ✓ | **Very High** |
+| **Execution** | ✓ | ✓ | ✓ | **Very High** |
+| **Compiler** | ✓ | ✓ | In Progress | **High** |
+| **Publication** | ✗ | ✗ | ✗ | **Medium** |
+| **Runtime** | ✗ | ✗ | ✗ | **Low** |
 
 ---
 
-## 10. Cross-Reference Map
+## 10. Debt & Risk Register
 
-| Source Document | Primary Dependencies | Secondary Consumers |
+### 10.1 Constitutional Debt (Missing Specs)
+- **POL-001 (Policy):** PRJ/EXP lack a formal evaluation logic spec (Rego/CEL). (**CRITICAL**)
+- **FED-001 (Federation):** No model for cross-tenant sharing. (**HIGH**)
+- **SDK-001 (Runtime):** No execution contract for SDK consumers. (**HIGH**)
+
+### 10.2 Architectural Debt (Implementation Gaps)
+- **Blueprints:** `RSN-001` framework exists, but the Blueprint registry is empty.
+- **KRM Schema:** The Knowledge Routing Matrix referenced in `RSN-001` has no schema.
+- **Reference Compilers:** Go/Rust/Python implementations are currently "In Progress."
+
+---
+
+## 11. Next Constitutional Documents (Roadmap)
+
+The expected sequence for extending the system beyond the Registry phase:
+
+1.  **POL-001:** Policy Evaluation & Logic Constitution.
+2.  **RI-006:** SDK Runtime Execution Contract.
+3.  **FED-001:** Cross-Tenant Federation Protocol.
+4.  **SEC-001:** Constitutional Security & Secret Management.
+5.  **MKT-001:** Intent & Blueprint Marketplace Governance.
+
+---
+
+## 12. Ownership Map (Concept Sovereignty)
+
+| Concept | Unique Owner | Authority |
 | :--- | :--- | :--- |
-| **RSN-001** | CL-11 (Evidence), CL-16 (Intelligence) | EXP-001 |
-| **ZT-001** | ARM-001 (Address), CL-08 (System) | SDK, API |
-| **CA-005** | CA-004 (Revocation), CL-17 (Trust) | PRJ, EXP |
-| **RI-001** | WS-00A (ACV), SR-001 (Supersession) | RI-003, RI-004 |
+| **Reality State** | CL-17 Graph Core | `WS-03A.0` |
+| **Digital ID (zID)** | CL-04 Identity | `WS-03A.2` |
+| **Fact Assertion** | CL-11 Event | `WS-03A.8` |
+| **Inference/Risk** | CL-16 Intelligence | `WS-03A.9` |
+| **Auth Context** | CL-04 Identity | `SR-012`, `WS-03F`|
+| **Temporal Logic** | CL-13 Temporal | `AMENDMENT A-001`|
+| **Attestation** | RSN-003 (Primitive)| `RSN-003` |
 
 ---
 
-## 11. Conflict Resolution History
+## 13. AI Council Mandate: The Reviewer's Purpose
 
-The Council has successfully navigated four "Constitutional Crises":
-
-1.  **The 15-Cluster Crisis:** Resolved by **CA-001**. Added Interpretation and Infrastructure clusters to prevent god-object schemas.
-2.  **The Campaign Collision:** Resolved by **CA-002**. Determined that Campaigns are temporary contextual identities, not primitives.
-3.  **The Temporal Tension:** Resolved by **AMENDMENT A-001**. Confirmed CL-13 as a first-class cluster to ensure temporal governance remains ontological, not just metadata.
-4.  **The Context Controversy:** Resolved by **WS-03D**. Chose the **Singular Context Anchor** model over composable tags to ensure clear authority lineage.
-
----
-
-## 12. Remaining Open Questions
-
-| Question | Current State | Blocking? | Owner |
-| :--- | :--- | :--- | :--- |
-| **Policy Language** | UNDEFINED | **YES** | RSN / PRJ |
-| **Retroactive Revocation**| PROHIBITED | NO | CA-004 (§TX-01) |
-| **Cross-Tenant Trust** | RESERVED | NO | Federation (v2.0) |
-| **Thread Scheduling** | PROHIBITED | NO | RI-000 (Appx F) |
+Reviewers MUST follow the **Reading Order** (`NORTH-STAR` -> `ZRM` -> `WS-03A` -> `CA-Series` -> `RI-Series`) and focus exclusively on:
+- Detecting **contradictions** between layers.
+- Identifying **missing** constitutional coverage (Gaps).
+- Detecting **ambiguity** that prevents deterministic implementation.
+- Enforce the **Vocabulary Freeze** (e.g., No "Signals," only "Events").
 
 ---
 
-## 13. Future Constitutional Roadmap
+## 14. Constitutional Vocabulary Freeze
 
-### Phase B: Implementation Proof (2026 Q3)
-- Freeze Level 1 Golden Corpus (50 entities / 200 relationships). (Ref: `RI-001`, §34, ¶1)
-- Pass Three-Compiler Integrity Test (Go/Rust/Python byte-comparison). (Ref: `RI-000`, Appx J, ¶1)
-
-### Phase C: Registry Era (2026 Q4)
-- Issue first Master Registry Certificate. (Ref: `WS-05E`, §5, ¶1)
-- Populate Product Templates and Instances under `ARM-P-001`.
-
-### Phase D: Interface Era (2027 Q1)
-- Ratify **RI-006** (SDK Execution Contract). (Ref: `ROADMAP.md`, Phase D)
-- Implement `explain()` API for implementation transparency. (Ref: `RI-002`, §31, ¶1)
+| Deprecated Term | Canonical Term | Authority |
+| :--- | :--- | :--- |
+| **Signal** | **Event** (CL-11) | `SR-007` |
+| **Journey** | **Inference Pattern** (CL-16) | `SR-008` |
+| **Fact** | **Reality Claim** (CL-09) | `SR-009` |
+| **Snapshot** | **ACV** (Active Const. View)| `RI-000` |
+| **Builder** | **Materializer** | `RI-004` |
+| **Primitive Campaign**| **Campaign Identity** | `CA-002` |
 
 ---
 
-## 14. "What Not To Change" (The Guardian's List)
+## 15. Summary of Constitutional Status
 
-Future Council members **MUST NOT** innovate in the following areas without a major amendment:
-
-- **Single Ownership Rule:** Never allow two clusters to own the same concept. (Ref: `WS-03A.0`, §5, CR-001, ¶1)
-- **Determinism Budget:** Never add non-deterministic inputs (Clock, Locale, Random) to the compiler chain. (Ref: `RI-000`, Appendix F, ¶1)
-- **Reality Immutability:** Transactions (CL-09) and Outcomes (CL-10) may supersede reality but never delete historical Events (CL-11). (Ref: `ZRM v1.1`, §8.2, ¶1)
-- **Separation of Layers:** Never allow UI-specific code to enter the Reality or Reasoning layers. (Ref: `EXP-001`, §19, ¶1)
+The Constitution is **internally deterministic**, **cryptographically reproducible**, **ontology-complete** for Reality, and **execution-complete** through Registry Publication. Future constitutional work extends the execution chain beyond publication without altering settled Reality, Ontology, Taxonomy, Authority, or Determinism.
 
 ---
-
-## 15. Reading Order for New Council Members
-
-1.  **Philosophy:** `NORTH-STAR.md`, `FOUNDING-PRINCIPLE.md`, `ZRM v1.1`.
-2.  **Structure:** `WS-03A.0`, `WS-03C`, `WS-03D`.
-3.  **Governance:** `SR-001`, `AMENDMENT A-001`, `CA-001 to CA-005`.
-4.  **Execution:** `RI-000`, `RI-001`, `WS-00A`.
-5.  **Application:** `ZT-001`, `EXP-001`, `PRJ-001 to PRJ-003`.
-
----
-*Orientation Guide v1.0 complete. Reconstructed from repository evidence by Jules.*
+*Orientation Dossier v1.2 complete. Reconstructed from repository evidence by Jules.*
