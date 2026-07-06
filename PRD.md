@@ -1,11 +1,43 @@
 # Zyppi Product Requirements Document (PRD)
 
-**Version:** 4.0  
-**Status:** Living Document  
-**Last Updated:** July 2026  
-**Depends On:**
-- `/NORTH_STAR.md`
-- `/FOUNDING_PRINCIPLES.md`
+# Constitutional Metadata Compilation: Zyppi Product Requirements Document (PRD) v4.0
+
+## Constitutional Metadata Header
+
+| Field | Value |
+|-------|-------|
+| Document ID | |
+| Constitutional URI | |
+| Canonical Name | ZYPPI_PRD_v4.0 |
+| Document Family | Zyppi Constitutional Corpus |
+| Title | Zyppi Product Requirements Document (PRD) |
+| Version | 4.0 |
+| Status | Active |
+| Classification | Capability Constitution |
+| Normative Level | Normative |
+| Domain | Product Strategy |
+| Constitutional Tier | Needs Ratification |
+| Constitutional Role | Needs Ratification |
+| Lifecycle | Active |
+| Owner | Not Specified |
+| Steward | Not Specified |
+| Created | Not Specified |
+| Last Updated | 2026-07 |
+| Effective Date | Not Specified |
+| Parent Document | Not Specified |
+| Depends On | NORTH_STAR.md, FOUNDING_PRINCIPLES.md |
+| Required By | To Be Resolved During Repository Dependency Mapping |
+| Related Documents | To Be Resolved During Repository Dependency Mapping |
+| Supersedes | Not Specified |
+| Superseded By | To Be Resolved During Repository Dependency Mapping |
+| Authority Scope | Needs Ratification |
+| Amendment Policy | Constitutional Amendment Required |
+| Compatibility | Not Specified |
+| Keywords | Product, Execution, Identity, Routing, Events, Trust, Capabilities, Platform, Infrastructure, Strategy |
+| Defines | Product Thesis, Identity Layer, Routing Layer, Event Layer, Trust Layer, Capability Layer, Execution Layer, Acquisition Products, Retention Products, Expansion Products |
+| Change Log | Version 4.0 updated July 2026 |
+| Constitutional Hash | Reserved |
+| UUID | Reserved |
 
 ---
 
