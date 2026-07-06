@@ -1,0 +1,54 @@
+# 03 DEPENDENCY GRAPH
+
+
+```mermaid
+graph TD
+  PRD --> **
+  PRD --> /NORTH_STAR.md
+  TECH-ARCH --> -
+  TECH-ARCH --> /NORTH_STAR.md
+  RI-001 --> RI-000
+  RI-001 --> Execution
+  RI-001 --> Contract
+  RI-001 --> v1.0
+  RI-002 --> RI-000
+  RI-002 --> Execution
+  RI-002 --> Contract
+  RI-002 --> v1.0
+  RI-003 --> RI-000
+  RI-003 --> Execution
+  RI-003 --> Contract
+  RI-003 --> v1.0
+  RI-004 --> RI-000
+  RI-004 --> Execution
+  RI-004 --> Contract
+  RI-004 --> v1.0
+  - Actor parent of Referent --> |
+  - Actor parent of Referent --> WS-03A.0
+  - Actor parent of Referent --> Cluster
+  - Actor parent of Referent --> Architecture
+  - Actor parent of Referent --> WS-03A.2
+  - Actor parent of Referent --> Hierarchy
+  - Actor parent of Referent --> Classification
+  - Actor parent of Referent --> Framework
+  - Actor parent of Referent --> WS-03B
+  - Actor parent of Referent --> Parent
+  - Actor parent of Referent --> Assignment
+  - Actor parent of Referent --> Matrix
+  - Actor parent of Referent --> WS-04A
+  - Actor parent of Referent --> Relationship
+  - Actor parent of Referent --> Governance
+  - Actor parent of Referent --> Foundation
+```
+
+
+## Related Reports
+
+- [01 DOCUMENT REGISTRY](01_DOCUMENT_REGISTRY.md)
+- [02 CONSTITUTIONAL HIERARCHY](02_CONSTITUTIONAL_HIERARCHY.md)
+- [04 CITATION INDEX](04_CITATION_INDEX.md)
+- [05 CONCEPT INDEX](05_CONCEPT_INDEX.md)
+- [06 DOCUMENT SUMMARIES](06_DOCUMENT_SUMMARIES.md)
+- [07 KNOWLEDGE GRAPH](07_KNOWLEDGE_GRAPH.md)
+- [08 DISCOVERY FINDINGS](08_DISCOVERY_FINDINGS.md)
+- [09 DISCOVERY EXECUTIVE SUMMARY](09_DISCOVERY_EXECUTIVE_SUMMARY.md)

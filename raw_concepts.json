@@ -1,0 +1,792 @@
+{
+  "ACTOR": {
+    "definition": "The entity initiating an interaction.",
+    "owning_document": "./DATA-MODEL.md",
+    "references": [
+      "./constitution/ratified/WS-02 \u2014 Core Entity Registry Specification.md"
+    ]
+  },
+  "IDENTITY": {
+    "definition": "The access mechanism.",
+    "owning_document": "./DATA-MODEL.md",
+    "references": [
+      "./NORTH-STAR-V4.0.md",
+      "./constitution/ratified/WS-02 \u2014 Core Entity Registry Specification.md"
+    ]
+  },
+  "REFERENT": {
+    "definition": "The thing being accessed.",
+    "owning_document": "./DATA-MODEL.md",
+    "references": []
+  },
+  "SURFACE": {
+    "definition": "The environment where discovery occurred.",
+    "owning_document": "./DATA-MODEL.md",
+    "references": []
+  },
+  "CAMPAIGN": {
+    "definition": "The intentional distribution effort.",
+    "owning_document": "./DATA-MODEL.md",
+    "references": [
+      "./constitution/ratified/WS-03A.2 Revision 1.md"
+    ]
+  },
+  "PROVENANCE": {
+    "definition": "Examples:",
+    "owning_document": "./DATA-MODEL.md",
+    "references": []
+  },
+  "CONFIDENCE": {
+    "definition": "Range:",
+    "owning_document": "./DATA-MODEL.md",
+    "references": []
+  },
+  "TOUCHPOINT": {
+    "definition": "The physical or digital entry point through which interaction begins.",
+    "owning_document": "./NORTH-STAR-V4.0.md",
+    "references": [
+      "./constitution/ratified/WS-02 \u2014 Core Entity Registry Specification.md"
+    ]
+  },
+  "INTENT": {
+    "definition": "The desired outcome that motivates the interaction.",
+    "owning_document": "./NORTH-STAR-V4.0.md",
+    "references": [
+      "./constitution/ratified/WS-02 \u2014 Core Entity Registry Specification.md"
+    ]
+  },
+  "TRANSACTION": {
+    "definition": "The sequence of actions required to fulfill the intent.",
+    "owning_document": "./NORTH-STAR-V4.0.md",
+    "references": [
+      "./constitution/ratified/WS-02 \u2014 Core Entity Registry Specification.md"
+    ]
+  },
+  "OUTCOME": {
+    "definition": "The result produced by the completed transaction.",
+    "owning_document": "./NORTH-STAR-V4.0.md",
+    "references": [
+      "./constitution/ratified/WS-02 \u2014 Core Entity Registry Specification.md"
+    ]
+  },
+  "CREATOR": {
+    "definition": "**Goal:**",
+    "owning_document": "./PRD.md",
+    "references": []
+  },
+  "MARKETER": {
+    "definition": "**Goal:**",
+    "owning_document": "./PRD.md",
+    "references": []
+  },
+  "AGENCY": {
+    "definition": "**Goal:**",
+    "owning_document": "./PRD.md",
+    "references": []
+  },
+  "DEVELOPER": {
+    "definition": "**Goal:**",
+    "owning_document": "./PRD.md",
+    "references": []
+  },
+  "ACQUISITION": {
+    "definition": "- Signups",
+    "owning_document": "./PRD.md",
+    "references": []
+  },
+  "RETENTION": {
+    "definition": "- Weekly Active Workspaces",
+    "owning_document": "./PRD.md",
+    "references": []
+  },
+  "EXPANSION": {
+    "definition": "- Free \u2192 Creator Conversion",
+    "owning_document": "./PRD.md",
+    "references": []
+  },
+  "PLATFORM": {
+    "definition": "- Redirect Latency",
+    "owning_document": "./PRD.md",
+    "references": []
+  },
+  "AUDITABILITY": {
+    "definition": "Every write operation must be traceable.",
+    "owning_document": "./TECH-ARCHITECTURE.md",
+    "references": []
+  },
+  "DISTRIBUTION": {
+    "definition": "**Example:**",
+    "owning_document": "./TECH-ARCHITECTURE.md",
+    "references": []
+  },
+  "ATTRIBUTION": {
+    "definition": "**Example:**",
+    "owning_document": "./TECH-ARCHITECTURE.md",
+    "references": []
+  },
+  "AUTOMATION": {
+    "definition": "**Example:**",
+    "owning_document": "./TECH-ARCHITECTURE.md",
+    "references": []
+  },
+  "EXAMPLES": {
+    "definition": "NFC Signature",
+    "owning_document": "./ZRM V1.1.md",
+    "references": []
+  },
+  "NODES": {
+    "definition": "- Actor",
+    "owning_document": "./ZRM V1.1.md",
+    "references": [
+      "./ZRM V1.1.md"
+    ]
+  },
+  "EDGES": {
+    "definition": "- ACCESSED",
+    "owning_document": "./ZRM V1.1.md",
+    "references": []
+  },
+  "RELATIONSHIPS": {
+    "definition": "Connections between entities.",
+    "owning_document": "./ZRM V1.1.md",
+    "references": []
+  },
+  "MARKETING": {
+    "definition": "**Question:**",
+    "owning_document": "./ZRM V1.1.md",
+    "references": []
+  },
+  "RETAIL": {
+    "definition": "**Question:**",
+    "owning_document": "./ZRM V1.1.md",
+    "references": []
+  },
+  "MUSIC": {
+    "definition": "**Question:**",
+    "owning_document": "./ZRM V1.1.md",
+    "references": []
+  },
+  "WRITES": {
+    "definition": "Append-only.",
+    "owning_document": "./ZRM V1.1.md",
+    "references": []
+  },
+  "READS": {
+    "definition": "Projection-driven.",
+    "owning_document": "./ZRM V1.1.md",
+    "references": []
+  },
+  "GRAPH": {
+    "definition": "Optimized for traversal.",
+    "owning_document": "./ZRM V1.1.md",
+    "references": []
+  },
+  "ANALYTICS": {
+    "definition": "Materialized.",
+    "owning_document": "./ZRM V1.1.md",
+    "references": []
+  },
+  "ONTOLOGY": {
+    "definition": "Question:",
+    "owning_document": "./constitution/CMP-001.md",
+    "references": []
+  },
+  "REALITY": {
+    "definition": "Question:",
+    "owning_document": "./constitution/CMP-001.md",
+    "references": []
+  },
+  "GOVERNANCE": {
+    "definition": "Question:",
+    "owning_document": "./constitution/CMP-001.md",
+    "references": [
+      "./constitution/Economic/ZEA-001.md"
+    ]
+  },
+  "EXECUTION": {
+    "definition": "Question:",
+    "owning_document": "./constitution/CMP-001.md",
+    "references": []
+  },
+  "RUNTIME": {
+    "definition": "Question:",
+    "owning_document": "./constitution/CMP-001.md",
+    "references": []
+  },
+  "FEDERATION": {
+    "definition": "Question:",
+    "owning_document": "./constitution/CMP-001.md",
+    "references": []
+  },
+  "ECOSYSTEM": {
+    "definition": "Question:",
+    "owning_document": "./constitution/CMP-001.md",
+    "references": []
+  },
+  "TITLE": {
+    "definition": "Extension Metadata vs. Constitutional Operation Semantics",
+    "owning_document": "./constitution/CRL-SDK-001.md",
+    "references": [
+      "./constitution/CRL-SDK-001.md"
+    ]
+  },
+  "SEVERITY": {
+    "definition": "Critical",
+    "owning_document": "./constitution/CRL-SDK-001.md",
+    "references": [
+      "./constitution/CRL-SDK-001.md"
+    ]
+  },
+  "STATUS": {
+    "definition": "**Accepted**",
+    "owning_document": "./constitution/CRL-SDK-001.md",
+    "references": [
+      "./constitution/CRL-SDK-001.md",
+      "./constitution/ratified/SDK-SPEC-001-PROGRESS.md",
+      "./constitution/ratified/SDK-SPEC-001-v2.md",
+      "./constitution/ratified/SDK-SPEC-001-v3.md",
+      "./constitution/ratified/SDK-SPEC-001.md"
+    ]
+  },
+  "RESOLUTION": {
+    "definition": "SDK-SPEC SHALL introduce:",
+    "owning_document": "./constitution/CRL-SDK-001.md",
+    "references": [
+      "./constitution/CRL-SDK-001.md"
+    ]
+  },
+  "ADOPTION": {
+    "definition": "- Does this increase participation?",
+    "owning_document": "./constitution/Economic/ZEA-001.md",
+    "references": []
+  },
+  "INTEROPERABILITY": {
+    "definition": "- Does this preserve open standards?",
+    "owning_document": "./constitution/Economic/ZEA-001.md",
+    "references": []
+  },
+  "TRUST": {
+    "definition": "- Does this strengthen trust?",
+    "owning_document": "./constitution/Economic/ZEA-001.md",
+    "references": []
+  },
+  "NETWORK": {
+    "definition": "- Does this create positive network effects?",
+    "owning_document": "./constitution/Economic/ZEA-001.md",
+    "references": []
+  },
+  "INPUTS": {
+    "definition": "- QR",
+    "owning_document": "./constitution/Economic/ZEA-001.md",
+    "references": [
+      "./constitution/Economic/ZEA-001.md"
+    ]
+  },
+  "OUTPUTS": {
+    "definition": "- Identity Graph growth",
+    "owning_document": "./constitution/Economic/ZEA-001.md",
+    "references": [
+      "./constitution/Economic/ZEA-001.md"
+    ]
+  },
+  "ARCHITECTURE": {
+    "definition": "Design economically composable systems.",
+    "owning_document": "./constitution/Economic/ZEA-001.md",
+    "references": [
+      "./constitution/Economic/ZEA-001.md"
+    ]
+  },
+  "ENGINEERING": {
+    "definition": "Minimize unnecessary economic complexity.",
+    "owning_document": "./constitution/Economic/ZEA-001.md",
+    "references": [
+      "./constitution/Economic/ZEA-001.md"
+    ]
+  },
+  "PRODUCT": {
+    "definition": "Increase ecosystem participation.",
+    "owning_document": "./constitution/Economic/ZEA-001.md",
+    "references": [
+      "./constitution/Economic/ZEA-001.md"
+    ]
+  },
+  "FINANCE": {
+    "definition": "Support sustainability without compromising constitutional principles.",
+    "owning_document": "./constitution/Economic/ZEA-001.md",
+    "references": [
+      "./constitution/Economic/ZEA-001.md"
+    ]
+  },
+  "LEADERSHIP": {
+    "definition": "Balance long-term ecosystem health against short-term commercial opportunities.",
+    "owning_document": "./constitution/Economic/ZEA-001.md",
+    "references": [
+      "./constitution/Economic/ZEA-001.md"
+    ]
+  },
+  "PURPOSE": {
+    "definition": "Defines the conditions used when selecting, evaluating, or executing Intent Contracts.",
+    "owning_document": "./constitution/ratified/CA-003.md",
+    "references": [
+      "./constitution/ratified/CA-003.md",
+      "./constitution/ratified/SEC-001.md",
+      "./constitution/ratified/WS-00A.md"
+    ]
+  },
+  "ADVISORY": {
+    "definition": "AI recommends actions.",
+    "owning_document": "./constitution/ratified/DJ-007.md",
+    "references": []
+  },
+  "ASSISTED": {
+    "definition": "AI prepares execution.",
+    "owning_document": "./constitution/ratified/DJ-007.md",
+    "references": []
+  },
+  "AUTONOMOUS": {
+    "definition": "AI executes independently within delegated authority.",
+    "owning_document": "./constitution/ratified/DJ-007.md",
+    "references": []
+  },
+  "RESTRICTED": {
+    "definition": "Certain Blueprints always require human approval.",
+    "owning_document": "./constitution/ratified/DJ-007.md",
+    "references": []
+  },
+  "CONNECTORS": {
+    "definition": "- SAP",
+    "owning_document": "./constitution/ratified/DJ-009.md",
+    "references": []
+  },
+  "PLUGINS": {
+    "definition": "- WordPress",
+    "owning_document": "./constitution/ratified/DJ-009.md",
+    "references": []
+  },
+  "COMPOSITION": {
+    "definition": "Which projections participate.",
+    "owning_document": "./constitution/ratified/EXP-001.md",
+    "references": []
+  },
+  "ROUTING": {
+    "definition": "Which experience template activates.",
+    "owning_document": "./constitution/ratified/EXP-001.md",
+    "references": []
+  },
+  "SEQUENCING": {
+    "definition": "Order of presentation.",
+    "owning_document": "./constitution/ratified/EXP-001.md",
+    "references": []
+  },
+  "NAVIGATION": {
+    "definition": "How sections relate.",
+    "owning_document": "./constitution/ratified/EXP-001.md",
+    "references": []
+  },
+  "AFFORDANCES": {
+    "definition": "Available actions.",
+    "owning_document": "./constitution/ratified/EXP-001.md",
+    "references": []
+  },
+  "ORIGINAL": {
+    "definition": "- EXP-LD-001 Experience is Constitutional",
+    "owning_document": "./constitution/ratified/EXP-001.md",
+    "references": []
+  },
+  "EXTENDED": {
+    "definition": "- EXP-LD-010 Temporal Scope Declaration",
+    "owning_document": "./constitution/ratified/EXP-001.md",
+    "references": []
+  },
+  "ARTIFACT": {
+    "definition": "An immutable serialized constitutional object.",
+    "owning_document": "./constitution/ratified/RI-000.md",
+    "references": []
+  },
+  "PIPELINE": {
+    "definition": "A pure constitutional transformation.",
+    "owning_document": "./constitution/ratified/RI-000.md",
+    "references": []
+  },
+  "PASS": {
+    "definition": "--",
+    "owning_document": "./constitution/ratified/RTC/RTC-ZRM-003-S3C.md",
+    "references": [
+      "./constitution/ratified/RTC/RTC-ZRM-003-S3C.md",
+      "./constitution/ratified/RTC/RTC-ZRM-003B-R2F.md",
+      "./constitution/ratified/RTC/RTC-ZRM-003B-R2G.md",
+      "./constitution/ratified/RTC/RTC-ZRM-003B-R2H.md",
+      "./constitution/ratified/RTC/RTC-ZRM-003B-R2I.md"
+    ]
+  },
+  "VOCABULARY": {
+    "definition": "- Identity",
+    "owning_document": "./constitution/ratified/RTC/RTC-ZRM-003A-R2B.md",
+    "references": [
+      "./constitution/ratified/RTC/RTC-ZRM-003A-R2C.md",
+      "./constitution/ratified/RTC/RTC-ZRM-003A-R2D.md",
+      "./constitution/ratified/RTC/RTC-ZRM-003A-R2E.md"
+    ]
+  },
+  "AXIOMS": {
+    "definition": "- Identity Exists",
+    "owning_document": "./constitution/ratified/RTC/RTC-ZRM-003A-R2B.md",
+    "references": [
+      "./constitution/ratified/RTC/RTC-ZRM-003A-R2C.md"
+    ]
+  },
+  "STATEMENT": {
+    "definition": "Every constitutional constituent possesses exactly one immutable identity.",
+    "owning_document": "./constitution/ratified/RTC/RTC-ZRM-003A-R3.md",
+    "references": [
+      "./constitution/ratified/RTC/RTC-ZRM-003A-R3.md"
+    ]
+  },
+  "DEPENDENCIES": {
+    "definition": "- Identity Axioms",
+    "owning_document": "./constitution/ratified/RTC/RTC-ZRM-003A-R3.md",
+    "references": [
+      "./constitution/ratified/RTC/RTC-ZRM-003A-R3.md"
+    ]
+  },
+  "UNANIMOUS APPROVAL": {
+    "definition": "--",
+    "owning_document": "./constitution/ratified/RTC/RTC-ZRM-003B-R2F.md",
+    "references": [
+      "./constitution/ratified/RTC/RTC-ZRM-003B-R2G.md",
+      "./constitution/ratified/RTC/RTC-ZRM-003B-R2H.md",
+      "./constitution/ratified/RTC/RTC-ZRM-003B-R2I.md"
+    ]
+  },
+  "ENTER CONSTITUTIONAL REGISTRY": {
+    "definition": "--",
+    "owning_document": "./constitution/ratified/RTC/RTC-ZRM-003B-R2F.md",
+    "references": [
+      "./constitution/ratified/RTC/RTC-ZRM-003B-R2G.md",
+      "./constitution/ratified/RTC/RTC-ZRM-003B-R2H.md",
+      "./constitution/ratified/RTC/RTC-ZRM-003B-R2I.md"
+    ]
+  },
+  "ENTERED": {
+    "definition": "--",
+    "owning_document": "./constitution/ratified/RTC/RTC-ZRM-003B-R2F.md",
+    "references": [
+      "./constitution/ratified/RTC/RTC-ZRM-003B-R2G.md",
+      "./constitution/ratified/RTC/RTC-ZRM-003B-R2H.md",
+      "./constitution/ratified/RTC/RTC-ZRM-003B-R2I.md"
+    ]
+  },
+  "RATIFIED": {
+    "definition": "--",
+    "owning_document": "./constitution/ratified/RTC/RTC-ZRM-003B-R3.md",
+    "references": [
+      "./constitution/ratified/RTC/RTC-ZRM-003B-R3.md"
+    ]
+  },
+  "IRREFLEXIVITY": {
+    "definition": "\\[",
+    "owning_document": "./constitution/ratified/RTC/RTC-ZRM-003C-R2C.md",
+    "references": []
+  },
+  "TRANSITIVITY": {
+    "definition": "\\[",
+    "owning_document": "./constitution/ratified/RTC/RTC-ZRM-003C-R2C.md",
+    "references": []
+  },
+  "ASYMMETRY": {
+    "definition": "\\[",
+    "owning_document": "./constitution/ratified/RTC/RTC-ZRM-003C-R2C.md",
+    "references": []
+  },
+  "CHARACTERISTICS": {
+    "definition": "Category A operations:",
+    "owning_document": "./constitution/ratified/SDK-SPEC-001-PROGRESS.md",
+    "references": [
+      "./constitution/ratified/SDK-SPEC-001-PROGRESS.md",
+      "./constitution/ratified/SDK-SPEC-001-v2.md",
+      "./constitution/ratified/SDK-SPEC-001-v3.md",
+      "./constitution/ratified/SDK-SPEC-001.md"
+    ]
+  },
+  "QUEUEABILITY": {
+    "definition": "Category A operations SHALL NOT be queued.",
+    "owning_document": "./constitution/ratified/SDK-SPEC-001-PROGRESS.md",
+    "references": [
+      "./constitution/ratified/SDK-SPEC-001-PROGRESS.md",
+      "./constitution/ratified/SDK-SPEC-001-v2.md",
+      "./constitution/ratified/SDK-SPEC-001-v3.md",
+      "./constitution/ratified/SDK-SPEC-001.md"
+    ]
+  },
+  "CONSTITUTION": {
+    "definition": "The Constitution remains the supreme behavioral authority.",
+    "owning_document": "./constitution/ratified/SDK-SPEC-001-v2.md",
+    "references": [
+      "./constitution/ratified/SDK-SPEC-001-v3.md",
+      "./constitution/ratified/SDK-SPEC-001.md"
+    ]
+  },
+  "EXTENSION": {
+    "definition": "An Extension participates inside the SDK execution pipeline through approved Extension Points.",
+    "owning_document": "./constitution/ratified/SDK-SPEC-001-v2.md",
+    "references": [
+      "./constitution/ratified/SDK-SPEC-001-v3.md",
+      "./constitution/ratified/SDK-SPEC-001.md"
+    ]
+  },
+  "IMMUTABLE": {
+    "definition": "Historical Registry entries SHALL NEVER be modified.",
+    "owning_document": "./constitution/ratified/SDK-SPEC-001-v2.md",
+    "references": [
+      "./constitution/ratified/SDK-SPEC-001-v3.md",
+      "./constitution/ratified/SDK-SPEC-001.md"
+    ]
+  },
+  "DETERMINISTIC": {
+    "definition": "Identical Registry information SHALL produce identical Registry representations.",
+    "owning_document": "./constitution/ratified/SDK-SPEC-001-v2.md",
+    "references": [
+      "./constitution/ratified/SDK-SPEC-001-v3.md",
+      "./constitution/ratified/SDK-SPEC-001.md"
+    ]
+  },
+  "AUDITABLE": {
+    "definition": "Every Certification event SHALL remain permanently traceable.",
+    "owning_document": "./constitution/ratified/SDK-SPEC-001-v2.md",
+    "references": [
+      "./constitution/ratified/SDK-SPEC-001-v3.md",
+      "./constitution/ratified/SDK-SPEC-001.md"
+    ]
+  },
+  "CONTRACT": {
+    "definition": "`Verb Root + Contract`",
+    "owning_document": "./constitution/ratified/WS-02 \u2014 Core Entity Registry Specification.md",
+    "references": [
+      "./constitution/ratified/WS-03A.2 Revision 1.md"
+    ]
+  },
+  "INFRASTRUCTURE": {
+    "definition": "#### Graph Core",
+    "owning_document": "./constitution/ratified/WS-03A.0.md",
+    "references": []
+  },
+  "EQUIPMENT": {
+    "definition": "**Examples:**",
+    "owning_document": "./constitution/ratified/WS-03A.2 Revision 1.md",
+    "references": [
+      "./constitution/ratified/WS-03A.3.md"
+    ]
+  },
+  "VEHICLE": {
+    "definition": "**Examples:**",
+    "owning_document": "./constitution/ratified/WS-03A.2 Revision 1.md",
+    "references": []
+  },
+  "DEVICE": {
+    "definition": "**Examples:**",
+    "owning_document": "./constitution/ratified/WS-03A.2 Revision 1.md",
+    "references": []
+  },
+  "MACHINE": {
+    "definition": "**Examples:**",
+    "owning_document": "./constitution/ratified/WS-03A.2 Revision 1.md",
+    "references": [
+      "./constitution/ratified/WS-03A.3.md"
+    ]
+  },
+  "SITE": {
+    "definition": "**Examples:**",
+    "owning_document": "./constitution/ratified/WS-03A.2 Revision 1.md",
+    "references": []
+  },
+  "BUILDING": {
+    "definition": "**Examples:**",
+    "owning_document": "./constitution/ratified/WS-03A.2 Revision 1.md",
+    "references": []
+  },
+  "FLOOR": {
+    "definition": "**Examples:**",
+    "owning_document": "./constitution/ratified/WS-03A.2 Revision 1.md",
+    "references": []
+  },
+  "ZONE": {
+    "definition": "**Examples:**",
+    "owning_document": "./constitution/ratified/WS-03A.2 Revision 1.md",
+    "references": []
+  },
+  "ROOM": {
+    "definition": "**Examples:**",
+    "owning_document": "./constitution/ratified/WS-03A.2 Revision 1.md",
+    "references": []
+  },
+  "SHELF": {
+    "definition": "**Examples:**",
+    "owning_document": "./constitution/ratified/WS-03A.2 Revision 1.md",
+    "references": []
+  },
+  "TABLE": {
+    "definition": "**Examples:**",
+    "owning_document": "./constitution/ratified/WS-03A.2 Revision 1.md",
+    "references": []
+  },
+  "CUSTOMER": {
+    "definition": "Consumer or purchaser.",
+    "owning_document": "./constitution/ratified/WS-03A.2 Revision 1.md",
+    "references": []
+  },
+  "EMPLOYEE": {
+    "definition": "Internal workforce member.",
+    "owning_document": "./constitution/ratified/WS-03A.2 Revision 1.md",
+    "references": []
+  },
+  "MEMBER": {
+    "definition": "Association or community member.",
+    "owning_document": "./constitution/ratified/WS-03A.2 Revision 1.md",
+    "references": []
+  },
+  "PATIENT": {
+    "definition": "Healthcare-related identity.",
+    "owning_document": "./constitution/ratified/WS-03A.2 Revision 1.md",
+    "references": []
+  },
+  "CITIZEN": {
+    "definition": "Government-related identity.",
+    "owning_document": "./constitution/ratified/WS-03A.2 Revision 1.md",
+    "references": []
+  },
+  "BRAND": {
+    "definition": "Commercial brand identity.",
+    "owning_document": "./constitution/ratified/WS-03A.2 Revision 1.md",
+    "references": []
+  },
+  "COMPANY": {
+    "definition": "Legal business entity.",
+    "owning_document": "./constitution/ratified/WS-03A.2 Revision 1.md",
+    "references": []
+  },
+  "DEPARTMENT": {
+    "definition": "Internal organizational unit.",
+    "owning_document": "./constitution/ratified/WS-03A.2 Revision 1.md",
+    "references": []
+  },
+  "PARTNER": {
+    "definition": "Partner organization.",
+    "owning_document": "./constitution/ratified/WS-03A.2 Revision 1.md",
+    "references": []
+  },
+  "DISTRIBUTOR": {
+    "definition": "Distribution organization.",
+    "owning_document": "./constitution/ratified/WS-03A.2 Revision 1.md",
+    "references": []
+  },
+  "CERTIFICATE": {
+    "definition": "**Examples:**",
+    "owning_document": "./constitution/ratified/WS-03A.2 Revision 1.md",
+    "references": []
+  },
+  "LICENSE": {
+    "definition": "**Examples:**",
+    "owning_document": "./constitution/ratified/WS-03A.2 Revision 1.md",
+    "references": []
+  },
+  "PASSPORT": {
+    "definition": "**Examples:**",
+    "owning_document": "./constitution/ratified/WS-03A.2 Revision 1.md",
+    "references": []
+  },
+  "POLICY": {
+    "definition": "**Examples:**",
+    "owning_document": "./constitution/ratified/WS-03A.2 Revision 1.md",
+    "references": []
+  },
+  "REPORT": {
+    "definition": "**Examples:**",
+    "owning_document": "./constitution/ratified/WS-03A.2 Revision 1.md",
+    "references": []
+  },
+  "DATASET": {
+    "definition": "**Examples:**",
+    "owning_document": "./constitution/ratified/WS-03A.2 Revision 1.md",
+    "references": []
+  },
+  "DRAFT": {
+    "definition": "Identity exists but is incomplete.",
+    "owning_document": "./constitution/ratified/WS-03A.2 Revision 1.md",
+    "references": []
+  },
+  "COMMISSIONED": {
+    "definition": "Identity has been assigned to a referent.",
+    "owning_document": "./constitution/ratified/WS-03A.2 Revision 1.md",
+    "references": []
+  },
+  "ACTIVE": {
+    "definition": "Identity is operational.",
+    "owning_document": "./constitution/ratified/WS-03A.2 Revision 1.md",
+    "references": []
+  },
+  "SUSPENDED": {
+    "definition": "Identity remains valid but is temporarily inactive.",
+    "owning_document": "./constitution/ratified/WS-03A.2 Revision 1.md",
+    "references": []
+  },
+  "DECOMMISSIONED": {
+    "definition": "Identity is permanently removed from operational use.",
+    "owning_document": "./constitution/ratified/WS-03A.2 Revision 1.md",
+    "references": []
+  },
+  "ARCHIVED": {
+    "definition": "Identity retained for historical purposes only.",
+    "owning_document": "./constitution/ratified/WS-03A.2 Revision 1.md",
+    "references": []
+  },
+  "PRODUCER": {
+    "definition": "The system or actor that technically submitted the Transaction.",
+    "owning_document": "./constitution/ratified/WS-03A.6.md",
+    "references": []
+  },
+  "AUTHORITY": {
+    "definition": "The entity legally or constitutionally authorized to make the determination.",
+    "owning_document": "./constitution/ratified/WS-03A.6.md",
+    "references": []
+  },
+  "PERMANENT": {
+    "definition": "Immutable historical fact.",
+    "owning_document": "./constitution/ratified/WS-03C.md",
+    "references": []
+  },
+  "PRINCIPLE": {
+    "definition": "- Transactions own evidence.",
+    "owning_document": "./constitution/ratified/WS-04A.1.md",
+    "references": []
+  },
+  "CONSERVATION": {
+    "definition": "A mathematical property remains unchanged.",
+    "owning_document": "./constitution/ratified/ZRM-003/ZRM-003-S5B.md",
+    "references": []
+  },
+  "MONOTONICITY": {
+    "definition": "A mathematical property evolves in only one constitutional direction.",
+    "owning_document": "./constitution/ratified/ZRM-003/ZRM-003-S5B.md",
+    "references": []
+  },
+  "IMMUTABILITY": {
+    "definition": "A constitutional object cannot change after establishment.",
+    "owning_document": "./constitution/ratified/ZRM-003/ZRM-003-S5B.md",
+    "references": []
+  },
+  "UNREACHABILITY": {
+    "definition": "Certain mathematical states are impossible.",
+    "owning_document": "./constitution/ratified/ZRM-003/ZRM-003-S5B.md",
+    "references": []
+  },
+  "FAMILY": {
+    "definition": "Applies to a single mathematical family.",
+    "owning_document": "./constitution/ratified/ZRM-003/ZRM-003-S5C.md",
+    "references": []
+  },
+  "FOUNDATIONAL": {
+    "definition": "Applies to every Reality Mathematics family.",
+    "owning_document": "./constitution/ratified/ZRM-003/ZRM-003-S5C.md",
+    "references": []
+  }
+}
