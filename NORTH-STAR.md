@@ -2,8 +2,46 @@
  
 ## Zyppi — The Universal Trust Execution Platform
 
-###### Revised at : Jun, 30th 2026
-###### By: Aly A. Samy
+# Constitutional Metadata Compilation: NORTH STAR v5.0
+
+## Constitutional Metadata Header
+
+| Field | Value |
+|-------|-------|
+| Document ID | |
+| Constitutional URI | |
+| Canonical Name | NORTH_STAR_v5.0 |
+| Document Family | Zyppi Constitutional Corpus |
+| Title | NORTH STAR v5.0 |
+| Version | 5.0 |
+| Status | Review |
+| Classification | Foundation |
+| Normative Level | Vision |
+| Domain | Reality-to-Trust Execution |
+| Constitutional Tier | Needs Ratification |
+| Constitutional Role | Needs Ratification |
+| Lifecycle | Active |
+| Owner | Not Specified |
+| Steward | Aly |
+| Created | Not Specified |
+| Last Updated | 2026-06-30 |
+| Effective Date | Not Specified |
+| Parent Document | Not Specified |
+| Depends On | Not Specified |
+| Required By | To Be Resolved During Repository Dependency Mapping |
+| Related Documents | To Be Resolved During Repository Dependency Mapping |
+| Supersedes | Not Specified |
+| Superseded By | To Be Resolved During Repository Dependency Mapping |
+| Authority Scope | Needs Ratification |
+| Amendment Policy | Constitutional Amendment Required |
+| Compatibility | Not Specified |
+| Keywords | Reality, Trust, Verification, Execution, AI, Zyppi, Constitutional, Perception, Evidence, Audit |
+| Defines | Reality, Trust, Intent, Action, Evidence, Verification, Observation, Execution, Receipt |
+| Change Log | Version 5.0 revised 2026-06-30 by Aly A. Samy |
+| Constitutional Hash | Reserved |
+| UUID | Reserved |
+
+---
 
 # Vision
  
