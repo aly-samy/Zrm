@@ -1,14 +1,43 @@
 # Zyppi Technical Architecture Bible
 
-**Version:** 4.1  
-**Status:** Living Document  
-**Last Updated:** July 2026
+# Constitutional Metadata Compilation: Zyppi Technical Architecture Bible v4.1
 
-**Depends On**
+## Constitutional Metadata Header
 
-- `/NORTH_STAR.md`
-- `/FOUNDING_PRINCIPLES.md`
-- `/PRD.md`
+| Field | Value |
+|-------|-------|
+| Document ID | |
+| Constitutional URI | |
+| Canonical Name | ZYPPI_TECHNICAL_ARCHITECTURE_BIBLE_v4.1 |
+| Document Family | Zyppi Constitutional Corpus |
+| Title | Zyppi Technical Architecture Bible |
+| Version | 4.1 |
+| Status | Active |
+| Classification | Runtime Constitution |
+| Normative Level | Normative |
+| Domain | System Architecture |
+| Constitutional Tier | Needs Ratification |
+| Constitutional Role | Needs Ratification |
+| Lifecycle | Active |
+| Owner | Not Specified |
+| Steward | Not Specified |
+| Created | Not Specified |
+| Last Updated | 2026-07 |
+| Effective Date | Not Specified |
+| Parent Document | Not Specified |
+| Depends On | NORTH_STAR.md, FOUNDING_PRINCIPLES.md, PRD.md |
+| Required By | To Be Resolved During Repository Dependency Mapping |
+| Related Documents | To Be Resolved During Repository Dependency Mapping |
+| Supersedes | Not Specified |
+| Superseded By | To Be Resolved During Repository Dependency Mapping |
+| Authority Scope | Needs Ratification |
+| Amendment Policy | Constitutional Amendment Required |
+| Compatibility | Not Specified |
+| Keywords | Architecture, Identity, Context, Routing, Events, Trust, Execution, Decision Engine, Event Ledger, Capabilities |
+| Defines | Identity Layer, Context Layer, Decision Engine, Routing Layer, Event Ledger, Routing Intelligence, Enterprise Capabilities, Execution Layer, ADRs, Universal Execution Pipeline |
+| Change Log | Version 4.1 updated July 2026 |
+| Constitutional Hash | Reserved |
+| UUID | Reserved |
 
 ---
 
