@@ -1,13 +1,17 @@
-# 08 DISCOVERY FINDINGS
+# 17 REPOSITORY HEALTH SCORE
 
 
-## 1. Document Families Discovered
-- ZRM, WS, RI, RSN, CA, SDK, RTC, Economic, DJ, POL, SEC
-
-## 2. Anomalies
-- Version drift in North Star and Founding Principles.
-- Naming collisions for blueprints.
-- Orphaned RTC documents.
+| Category | Score (0-10) | Recommendation |
+| --- | --- | --- |
+| Naming consistency | 6 | See relevant report for cleanup. |
+| Version consistency | 5 | See relevant report for cleanup. |
+| Reference integrity | 7 | See relevant report for cleanup. |
+| Hierarchy integrity | 6 | See relevant report for cleanup. |
+| Duplication | 4 | See relevant report for cleanup. |
+| Discoverability | 5 | See relevant report for cleanup. |
+| AI readability | 8 | See relevant report for cleanup. |
+| Human readability | 7 | See relevant report for cleanup. |
+| Technical debt | 5 | See relevant report for cleanup. |
 
 
 ## Related Reports
@@ -20,6 +24,7 @@
 - [05 CONCEPT INDEX](05_CONCEPT_INDEX.md)
 - [06 DOCUMENT SUMMARIES](06_DOCUMENT_SUMMARIES.md)
 - [07 KNOWLEDGE GRAPH](07_KNOWLEDGE_GRAPH.md)
+- [08 DISCOVERY FINDINGS](08_DISCOVERY_FINDINGS.md)
 - [09 DIRECTORY RESTRUCTURE PROPOSAL](09_DIRECTORY_RESTRUCTURE_PROPOSAL.md)
 - [10 MIGRATION PLAN](10_MIGRATION_PLAN.md)
 - [11 DUPLICATE AND SUPERSESSION ANALYSIS](11_DUPLICATE_AND_SUPERSESSION_ANALYSIS.md)
@@ -28,4 +33,3 @@
 - [14 CONFLICT ANALYSIS](14_CONFLICT_ANALYSIS.md)
 - [15 GAP ANALYSIS](15_GAP_ANALYSIS.md)
 - [16 AI NAVIGATION INDEX](16_AI_NAVIGATION_INDEX.md)
-- [17 REPOSITORY HEALTH SCORE](17_REPOSITORY_HEALTH_SCORE.md)

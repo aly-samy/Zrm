@@ -1,0 +1,13 @@
+with open('Constitutional Reviews/Discovery/12_CANONICAL_NAMING_STANDARD.md', 'w') as f:
+    f.write("# 12 CANONICAL NAMING STANDARD\n\n")
+    f.write("| Family | Pattern | Example | Rationale |\n")
+    f.write("| --- | --- | --- | --- |\n")
+    f.write("| WS | WS-XX.Y.Z | WS-03A.1.md | Hierarchical workstream indexing |\n")
+    f.write("| RI | RI-NNN | RI-001.md | Sequential implementation stages |\n")
+    f.write("| RSN | RSN-NNN | RSN-001.md | Reasoning series |\n")
+    f.write("| ZRM | ZRM-NNN | ZRM-001.md | Core reality model series |\n")
+    f.write("| SDK | SDK-SPEC-NNN | SDK-SPEC-001.md | Formal interface specifications |\n")
+    f.write("| SEC | SEC-NNN | SEC-001.md | Security protocols |\n")
+    f.write("| POL | POL-NNN | POL-001.md | Policy directives |\n")
+    f.write("| GOV | GOV-NNN | GOV-001.md | Governance documents |\n")
+    f.write("| REF | REF-NNN | REF-001.md | Reference and supporting docs |\n")

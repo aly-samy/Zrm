@@ -177,13 +177,13 @@
 | Unknown | WS-03A.2 — Hierarchy Classification Framework | Supporting | LOCKED | ./constitution/ratified/WS-03A.2.md |
 | Unknown | WS-03A.3 — CL-05 Referent Taxonomy Map | Supporting | Unknown | ./constitution/ratified/WS-03A.3.md |
 | Unknown | WS-03A.4 | Supporting | Unknown | ./constitution/ratified/WS-03A.4.md |
-| - Purchase Contract | WS-03A.5 — CL-07 Intent Contract Constitutional Governance Frame | Supporting | Unknown | ./constitution/ratified/WS-03A.5.md |
+| -_Purchase_Contract | WS-03A.5 — CL-07 Intent Contract Constitutional Governance Frame | Supporting | Unknown | ./constitution/ratified/WS-03A.5.md |
 | Unknown | WS-03A.6 — CL-09 Transaction Taxonomy Map | Supporting |  | ./constitution/ratified/WS-03A.6.md |
 | Unknown | WS-03A.7 — CL-10 Outcome Taxonomy Map | Supporting |  | ./constitution/ratified/WS-03A.7.md |
 | Unknown | WS-03A.8 — CL-11 Event Taxonomy Map | Supporting |  | ./constitution/ratified/WS-03A.8.md |
 | Unknown | 1. Purpose | Supporting | Unknown | ./constitution/ratified/WS-03A.9.md |
-| - Actor parent of Referent | WS-03C — Cross-Cluster Relationship Matrix Constitution | Supporting |  | ./constitution/ratified/WS-03C.md |
-| Employment Contract | WS-03D Amendment — Authority Anchor Model | Supporting | Unknown | ./constitution/ratified/WS-03D.md |
+| -_Actor_parent_of_Referent | WS-03C — Cross-Cluster Relationship Matrix Constitution | Supporting |  | ./constitution/ratified/WS-03C.md |
+| Employment_Contract | WS-03D Amendment — Authority Anchor Model | Supporting | Unknown | ./constitution/ratified/WS-03D.md |
 | Unknown | WS-03F — Registry Population Hardening Amendment Package | Supporting |  | ./constitution/ratified/WS-03F.md |
 | Unknown | WS-04A.1 | Supporting | Unknown | ./constitution/ratified/WS-04A.1.md |
 | Unknown | WS-04B — Relationship Registry Architecture | Supporting |  | ./constitution/ratified/WS-04B.md |
@@ -217,11 +217,12 @@
 - [06 DOCUMENT SUMMARIES](06_DOCUMENT_SUMMARIES.md)
 - [07 KNOWLEDGE GRAPH](07_KNOWLEDGE_GRAPH.md)
 - [08 DISCOVERY FINDINGS](08_DISCOVERY_FINDINGS.md)
-- [09 REPOSITORY REORGANIZATION PLAN](09_REPOSITORY_REORGANIZATION_PLAN.md)
-- [10 CANONICAL DOCUMENT REGISTRY](10_CANONICAL_DOCUMENT_REGISTRY.md)
-- [11 FILE CONSOLIDATION REPORT](11_FILE_CONSOLIDATION_REPORT.md)
-- [12 PROPOSED DIRECTORY TREE](12_PROPOSED_DIRECTORY_TREE.md)
-- [13 MIGRATION ORDER](13_MIGRATION_ORDER.md)
-- [14 RENAME MAP](14_RENAME_MAP.md)
-- [15 LINK UPDATE PLAN](15_LINK_UPDATE_PLAN.md)
-- [16 ARCHIVE CANDIDATES](16_ARCHIVE_CANDIDATES.md)
+- [09 DIRECTORY RESTRUCTURE PROPOSAL](09_DIRECTORY_RESTRUCTURE_PROPOSAL.md)
+- [10 MIGRATION PLAN](10_MIGRATION_PLAN.md)
+- [11 DUPLICATE AND SUPERSESSION ANALYSIS](11_DUPLICATE_AND_SUPERSESSION_ANALYSIS.md)
+- [12 CANONICAL NAMING STANDARD](12_CANONICAL_NAMING_STANDARD.md)
+- [13 ORPHAN ANALYSIS](13_ORPHAN_ANALYSIS.md)
+- [14 CONFLICT ANALYSIS](14_CONFLICT_ANALYSIS.md)
+- [15 GAP ANALYSIS](15_GAP_ANALYSIS.md)
+- [16 AI NAVIGATION INDEX](16_AI_NAVIGATION_INDEX.md)
+- [17 REPOSITORY HEALTH SCORE](17_REPOSITORY_HEALTH_SCORE.md)
